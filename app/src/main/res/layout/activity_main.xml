@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/sds"
+    tools:context="com.example.asus.birthdayrecords.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Id : "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/idEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter id"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Name : "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/nameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter name"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gender : "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/genderEdtitTextId"
+            android:hint="enter his gender"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Birthday : "
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/birthEditTextId"
+            android:hint="enter his birthdate"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButtonId"
+        android:layout_marginTop="10dp"
+        android:background="#999"
+        android:text="save"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/showBirthdayButtonId"
+            android:layout_marginTop="10dp"
+            android:background="#859"
+            android:text="Birthday\nList"
+            android:textSize="20sp"
+            android:layout_width="170dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/deleteBirthdayButtonId"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ff00"
+            android:text="Delete\nBirthday"
+            android:textSize="20sp"
+            android:layout_width="190dp"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+</LinearLayout>
